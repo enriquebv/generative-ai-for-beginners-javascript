@@ -16,7 +16,7 @@ To run the code locally on your computer, you would need to have:
 
 And select "Deno" kernel in Jupyter Notebooks.
 
-### Using Visual Studio Code with Python Extension
+### Using Visual Studio Code with Deno Extension
 
 Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-bethanycheum) with [Deno Extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno).
 
