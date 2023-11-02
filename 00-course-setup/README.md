@@ -4,25 +4,7 @@ We are very excited for you to start this course and see what you get inspired t
 
 To make your time successful, we have created this page that outlines any setup steps, technical requirements, and how to get help when you need it.
 
-## Setup Steps
-
-To start taking this course, you will need to complete the following steps.
-
-### 1. Fork this Repo
-
-[Fork this entire repo](https://github.com/microsoft/generative-ai-for-beginners/fork?WT.mc_id=academic-105485-koreyst) to your own GitHub account to be able to change any code and complete the challenges. You can also [star (🌟) this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars?WT.mc_id=academic-105485-koreyst) to find it and related repos easier.
-
-### 2. Create a codespace
-
-To avoid any dependency issues when running the code, we recommend running this course in a GitHub codespace.
-
-This can be created by selecting the `Code` option on your forked version of this repo and selecting the **Codespaces** option.
-
-### 3. Storing Your API Keys
-
-Keeping your API keys safe and secure is important when building any type of application. We encourage you not to store any API keys directly in the code you are working with as committing those details to a public repository could result in unwanted costs and issues.
-
-![Dialog showing buttons to create a codespace](./images/who-will-pay.webp)
+> ⚠️: Codespace & Devcontainer is not available, was prepared for Python and I will only use local setup.
 
 ## How to Run locally on your computer using JavaScript
 
@@ -59,10 +41,6 @@ jupyterhub
 ```
 
 You then can navigate to any of the `.ipynb` files, open them and start working.
-
-### Running in container
-
-> Devcontainer is not available.
 
 ## Lessons and Technical Requirements
 
