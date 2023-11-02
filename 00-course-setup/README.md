@@ -24,46 +24,45 @@ Keeping your API keys safe and secure is important when building any type of app
 
 ![Dialog showing buttons to create a codespace](./images/who-will-pay.webp)
 
-## How to Run locally on your computer
+## How to Run locally on your computer using JavaScript
 
-To run the code locally on your computer, you would need to have some version of Python installed. I personally recommend installing **[miniconda](https://conda.io/en/latest/miniconda.html)** - it is rather lightweight installation that supports `conda` package manager for different Python **virtual environments**.
+To run the code locally on your computer, you would need to have:
 
-After you install miniconda, you need to clone the repository and create a virtual environment to be used for this course:
+- [Jupyter](https://jupyter.org/install).
+- [Deno](https://docs.deno.com/runtime/manual/getting_started/installation) (to run TypeScript/JavaScript code in Jupyter Notebooks).
+- [Jupyter Kernel for Deno](https://docs.deno.com/runtime/manual/tools/jupyter)
 
-```bash
-git clone https://github.com/microsoft/generative-ai-for-beginners
-cd generative-ai-for-beginners
-conda env create --name ai4beg --file .devcontainer/environment.yml
-conda activate ai4beg
-```
+And select "Deno" kernel in Jupyter Notebooks.
 
 ### Using Visual Studio Code with Python Extension
 
-Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-bethanycheum) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-bethanycheum).
+Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-bethanycheum) with [Deno Extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno).
 
-> **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Python extensions. You would also have to install miniconda as described above.
+Remember to [activate Deno](https://docs.deno.com/runtime/manual/references/vscode_deno/#deno-enabling-a-workspace).
 
-> **Note**: If VS Code suggests you to re-open the repository in container, you need to decline this to use local Python installation. 
+> **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Deno extensions. You would also have to install miniconda as described above.
 
 ### Using Jupyter in the Browser
 
 You can also use Jupyter environment right from the browser on your own computer. Actually, both classical Jupyter and Jupyer Hub provide quite convenient development environment with auto-completion, code highlighting, etc.
 
 To start Jupyter locally, go to the directory of the course, and execute:
+
 ```bash
 jupyter notebook
 ```
+
 or
+
 ```bash
 jupyterhub
 ```
+
 You then can navigate to any of the `.ipynb` files, open them and start working.
 
 ### Running in container
 
-An alternative to Python installation would be to run the code in container. Since our repository contains special `.devcontainer` folder that instructs how to build a container for this repo, VS Code would offer you to re-open the code in container. This will require Docker installation, and also would be more complex, so we recommend this to more experienced users.
-
-One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow this guide on how to [manage secrets for your codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces?WT.mc_id=academic-105485-koreyst).
+> Devcontainer is not available.
 
 ## Lessons and Technical Requirements
 
