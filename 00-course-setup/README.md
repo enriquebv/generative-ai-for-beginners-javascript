@@ -22,7 +22,7 @@ Probably the best way to use the curriculum is to open it in [Visual Studio Code
 
 Remember to [activate Deno](https://docs.deno.com/runtime/manual/references/vscode_deno/#deno-enabling-a-workspace).
 
-> **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Deno extensions. You would also have to install miniconda as described above.
+> **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Deno extensions.
 
 ### Using Jupyter in the Browser
 
